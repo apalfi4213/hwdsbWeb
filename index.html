@@ -1,0 +1,1198 @@
+<!--
+>> Name: Junior Developer
+>> Date: March-June 2019
+>> Description: myHome Website for HWDSB Staff
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link id="css" rel="stylesheet" type="text/css" title="default" href="css/theme.css">
+    <link rel="shortcut icon" href="images/site/hwdsb_icon.ico">
+    <title>HWDSB myHome</title>
+</head>
+
+<body>
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <div id="wrapper">
+        <div id="myElSchools" class="el_Schools">
+            <div id="myEMenu" class="e_menu">
+                <div class="row" style="justify-content: flex-end;">
+                    <span onclick="closeElSchools()">
+                        <div class="fas fa-times" style="margin: 20px;"></div>
+                    </span>
+                </div>
+                <div class="row">
+                    <div class="e_title">
+                        Family of Schools - Elementary
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 30px;">
+                    <div class="column">
+                        <div class="e_content">
+                            Family 0
+                            <div class="row">
+                                <p>
+                                    Eastmount Park Elementary
+                                    <br>Glenwood
+                                    <br>Greensville Public
+                                    <br>Prince Philip Elementary
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="e_content">
+                            Family 1
+                            <div class="row">
+                                <p>
+                                    Billy Green Public
+                                    <br>Collegiate Avenue Public
+                                    <br>Eastdale Public
+                                    <br>Elizabeth Bagshaw
+                                    <br>Gatestone
+                                    <br>Glen Brae Middle
+                                    <br>Glen Echo Elementary
+                                    <br>Green Acres Public
+                                    <br>Janet Lee Elementary
+                                    <br>Lake Avenue Public
+                                    <br>Memorial Public - Stoney Creek
+                                    <br>Mount Albion Public
+                                    <br>Mountain View Public
+                                    <br>R.L. Hyslop Elementary
+                                    <br>Sir Isaac Brock
+                                    <br>Sir Wilfrid Laurier Elementary
+                                    <br>Tapleytown Public
+                                    <br>Winona Elementary
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="e_content">
+                            Family 2
+                            <div class="row">
+                                <p>
+                                    <br>Buchanan Park Elementary
+                                    <br>C.B. Stirling Elementary
+                                    <br>Central Public
+                                    <br>Chedoke
+                                    <br>Gordon Price Elementary
+                                    <br>Helen Detwiler Elementary
+                                    <br>Holbrook Public
+                                    <br>James Macdonald Elementary
+                                    <br>Lincoln Alexander Elementary
+                                    <br>Mountview Elementary
+                                    <br>Pauline Johnson Elementary
+                                    <br>Queensdale Public
+                                    <br>R.A. Riddell Elementary
+                                    <br>Ray Lewis Elementary
+                                    <br>Ridgemount Public
+                                    <br>Templemead
+                                    <br>Westview Middle
+                                    <br>Westwood Elementary
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <div class="e_content">
+                            Family 3
+                            <div class="row">
+                                <p>
+                                    Bellmoore Public
+                                    <br>Franklin Road Elementary
+                                    <br>George L. Armstrong Elementary
+                                    <br>Highview
+                                    <br>Hillcrest Elementary School
+                                    <br>Huntington Park Elementary
+                                    <br>Lawfield Elementary
+                                    <br>L'Ecole Michaelle Jean E
+                                    <br>Lisgar Public
+                                    <br>Norwood Park Elementary
+                                    <br>Parkdale Elementary
+                                    <br>Queen Mary Elementary
+                                    <br>Richard Beasley Public
+                                    <br>Rosedale Public
+                                    <br>Viscount Montgomery Public
+                                    <br>W.H. Ballard Elementary
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="e_content">
+                            Family 4
+                            <div class="row">
+                                <p>
+                                    A.M. Cunningham
+                                    <br>Allan A. Greenleaf
+                                    <br>Balaclava Public
+                                    <br>Bennetto Public
+                                    <br>Cootes Paradise Elementary School
+                                    <br>Dalewood Middle School
+                                    <br>Dr. J. Edgar Davey
+                                    <br>Earl Kitchener Elementary
+                                    <br>Flamborough Centre
+                                    <br>Guy B. Brown Public
+                                    <br>Hess Street
+                                    <br>Mary Hopkins Public
+                                    <br>Millgrove Public
+                                    <br>Queen Victoria Elementary
+                                    <br>Ryerson Middle School
+                                    <br>Strathcona Elementary
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="e_content">
+                            Family 5
+                            <div class="row">
+                                <p>
+                                    Adelaide Hoodless Elementary
+                                    <br>Ancaster Meadow
+                                    <br>Ancaster Senior Public
+                                    <br>Beverly Central Public
+                                    <br>C.H. Bray Public
+                                    <br>Cathy Wever Elementary School
+                                    <br>Dr. John Seaton
+                                    <br>Dundana Public
+                                    <br>Dundas Central Public
+                                    <br>Fessenden Public
+                                    <br>Memorial Elementary - City
+                                    <br>Mount Hope Public
+                                    <br>Prince of Wales Elementary
+                                    <br>Queen's Rangers Public
+                                    <br>Rousseau Public
+                                    <br>Sir William Osler
+                                    <br>Spencer Valley Public
+                                    <br>Tiffany Hills
+                                    <br>Yorkview Public
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="mySecSchools" class="sec_Schools">
+            <div id="mySMenu" class="s_menu">
+                <div class="row" style="justify-content: flex-end;">
+                    <span onclick="closeSecSchools()">
+                        <div class="fas fa-times" style="margin: 20px;"></div>
+                    </span>
+                </div>
+                <div class="row">
+                    <div class="s_title">
+                        Family of Schools - Secondary
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 30px;">
+                    <div class="column">
+                        <div class="s_content">
+                            Family 0
+                            <div class="row">
+                                <p>
+                                    N/A
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="s_content">
+                            Family 1
+                            <div class="row">
+                                <p>
+                                    Glendale Secondary
+                                    <br>Orchard Park Secondary
+                                    <br>Saltfleet District High
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="s_content">
+                            Family 2
+                            <div class="row">
+                                <p>
+                                    Nora Henderson
+                                    <br>Sir Allan MacNab Secondary
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="s_content">
+                            Family 3
+                            <div class="row">
+                                <p>
+                                    Sherwood Secondary
+                                    <br>Sir Winston Churchill S.S.
+                                    <br>Westmount Secondary
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="s_content">
+                            Family 4
+                            <div class="row">
+                                <p>
+                                    Bernie Custis Secondary School
+                                    <br>Delta Secondary
+                                    <br>Sir John A Macdonald Secondary
+                                    <br>Waterdown District High
+                                    <br>Westdale Secondary
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="s_content">
+                            Family 5
+                            <div class="row">
+                                <p>
+                                    Ancaster High
+                                    <br>Dundas Valley
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="myHelper" class="helper">
+            <div id="myHMenu" class="hmenu">
+                <div class="row" style="justify-content: flex-end;">
+                    <span onclick="closeHelper()">
+                        <div class="fas fa-times" style="margin: 20px;"></div>
+                    </span>
+                </div>
+                <div class="row">
+                    <div class="htitle">
+                        HWDSB FAQ & Help Menu
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 30px;">
+                    <div class="column">
+                        <div class="hcontent">
+                            Inquiry/Question <p> - Lorem ipsum dolor sit amet, ignota corpora volutpat et ius,
+                                at
+                                feugait inciderint mel. Mutat homero vituperata sit in. Enim euripidis
+                                voluptatum vim
+                                ut, te eros fuisset nam, usu ea sale nostro.</p>
+                        </div>
+                        <div class="hcontent">
+                            Inquiry/Question <p> - Lorem ipsum dolor sit amet, ignota corpora volutpat et ius,
+                                at
+                                feugait inciderint mel. Mutat homero vituperata sit in. Enim euripidis
+                                voluptatum vim
+                                ut, te eros fuisset nam, usu ea sale nostro.</p>
+                        </div>
+                        <div class="hcontent">
+                            Inquiry/Question <p> - Lorem ipsum dolor sit amet, ignota corpora volutpat et ius,
+                                at
+                                feugait inciderint mel. Mutat homero vituperata sit in. Enim euripidis
+                                voluptatum vim
+                                ut, te eros fuisset nam, usu ea sale nostro.</p>
+                        </div>
+                        <div class="hcontent">
+                            Inquiry/Question <p> - Lorem ipsum dolor sit amet, ignota corpora volutpat et ius,
+                                at
+                                feugait inciderint mel. Mutat homero vituperata sit in. Enim euripidis
+                                voluptatum vim
+                                ut, te eros fuisset nam, usu ea sale nostro.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="hcontent">
+                            Inquiry/Question <p> - Lorem ipsum dolor sit amet, ignota corpora volutpat et ius,
+                                at
+                                feugait inciderint mel. Mutat homero vituperata sit in. Enim euripidis
+                                voluptatum vim
+                                ut, te eros fuisset nam, usu ea sale nostro.</p>
+                        </div>
+                        <div class="hcontent">
+                            Inquiry/Question <p> - Lorem ipsum dolor sit amet, ignota corpora volutpat et ius,
+                                at
+                                feugait inciderint mel. Mutat homero vituperata sit in. Enim euripidis
+                                voluptatum vim
+                                ut, te eros fuisset nam, usu ea sale nostro.</p>
+                        </div>
+                        <div class="hcontent">
+                            Inquiry/Question <p> - Lorem ipsum dolor sit amet, ignota corpora volutpat et ius,
+                                at
+                                feugait inciderint mel. Mutat homero vituperata sit in. Enim euripidis
+                                voluptatum vim
+                                ut, te eros fuisset nam, usu ea sale nostro.</p>
+                        </div>
+                        <div class="hcontent">
+                            Inquiry/Question <p> - Lorem ipsum dolor sit amet, ignota corpora volutpat et ius,
+                                at
+                                feugait inciderint mel. Mutat homero vituperata sit in. Enim euripidis
+                                voluptatum vim
+                                ut, te eros fuisset nam, usu ea sale nostro.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="myNotice" class="notice">
+            <div class="row" style="justify-content: flex-end;">
+                <span onclick="closeNotice()">
+                    <div class="fas fa-times" style="margin: 20px;"></div>
+                </span>
+            </div>
+            <div class="row" style="margin-bottom: 25px;">
+                <h1><i>We moved all of the buttons from the home.hwdsb.on.ca/tools website, as a result, they
+                        can be
+                        accessed below or from our brand new website.</i></h1>
+            </div>
+            <div class="row">
+                <div class="row">
+                    <a href="https://ps.hwdsb.on.ca/admin/pw.html/" target="_blank">
+                        <button class="button">PowerSchool Administrator</button>
+                    </a>
+                    <a href="https://ps.hwdsb.on.ca/teachers/pw.html/" target="_blank">
+                        <button class="button">PowerSchool Teacher</button>
+                    </a>
+                    <a href="https://ps.hwdsb.on.ca/subs/pw.html/" target="_blank">
+                        <button class="button">PowerSchool Substitute Teacher</button>
+                    </a>
+                </div>
+                <div class="row">
+                    <div class="row">
+                        <a href="https://hwdsb.eschoolsolutions.com/logOnInitAction.do" target="_blank">
+                            <button class="button">Report an Absence</button>
+                        </a>
+                        <a href="https://spedassist.hwdsb.on.ca/login/" target="_blank">
+                            <button class="button">SPEDAssist</button>
+                        </a>
+                    </div>
+                    <div class="row">
+                        <a href="https://hwdsbonca.sharepoint.com/sites/myhwdsb/Lists/CorporateCommunicationsCalendar/calendar.aspx/"
+                            target="_blank">
+                            <button class="button">System Calendar</button>
+                        </a>
+                        <a href="https://hwdsb.ebasefm.com/" target="_blank">
+                            <button class="button">IIT Help Desk (eBase)</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="row">
+                    <a href="https://helpme.hwdsb.on.ca/" target="_blank">
+                        <img src="images/tools/Recover-Password.jpg" alt="Change/Recover your Password">
+                    </a>
+                    <a href="http://outlook.com/OWA/hwdsb.on.ca" target="_blank">
+                        <img src="images/tools/o365-button.jpg" alt="Office 365">
+                    </a>
+                </div>
+                <div class="row">
+                    <a href="https://hwdsb.elearningontario.ca/" target="_blank">
+                        <img src="images/tools/thehub-button.jpg" alt="the Hub">
+                    </a>
+                    <a href="http://my.hwdsb.on.ca/" target="_blank">
+                        <img src="images/tools/myhwdsb-button.jpg" alt="myHWDSB">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="row">
+                    <a href="https://hwdsb.tv/" target="_blank">
+                        <img src="images/tools/tvhwdsb-button.jpg" alt="tv.HWDSB">
+                    </a>
+                    <a href="https://hwdsbonca.sharepoint.com/_layouts/15/sharepoint.aspx" target="_blank">
+                        <img src="images/tools/teamsites.jpg" alt="Team Sites">
+                    </a>
+                </div>
+                <div class="row">
+                    <a href="https://drive.google.com/a/hwdsb.on.ca" target="_blank">
+                        <img src="images/tools/googleappbutton.jpg" alt="Google Apps">
+                    </a>
+                    <a href="http://commons.hwdsb.on.ca/" target="_blank">
+                        <img src="images/tools/commons-button.jpg" alt="HWDSB Commons">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="row">
+                    <a href="https://hwdsbonca.sharepoint.com/support/SitePages/Home.aspx" target="_blank">
+                        <img src="images/tools/office365supportbutton.jpg" alt="Office 365 Support Page">
+                    </a>
+                    <a href="http://www.hwdsb.on.ca/" target="_blank">
+                        <img src="images/tools/publicwebsite.jpg" alt="HWDSB website">
+                    </a>
+                </div>
+                <div class="row">
+                    <a href="https://ippsportal.hwdsb.on.ca/" target="_blank">
+                        <img src="images/tools/employee-webportal.jpg" alt="Employee webportal">
+                    </a>
+                    <a href="http://www.hwdsb.on.ca/about/policies/" target="_blank">
+                        <img src="images/tools/policies.jpg" alt="HWDSB Policies">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="mySidenav" class="sidenav">
+            <div class="row">
+                <div class="column">
+                    <span onclick="closeNav()" style="justify-content: flex-start">
+                        <div class="fas fa-times"></div>
+                    </span>
+                </div>
+                <div class="column">
+                    <div class="wrap" style="justify-content: flex-end;">
+                        <a href="https://www.office.com/?auth=2&home=1" target="_blank">Office 365<div
+                                class="fas fa-arrow-right"></div></a>
+                    </div>
+                </div>
+            </div>
+            <div class="navmenu">
+                <div class="navtitle">
+                    <b>Apps</b>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <a href="https://outlook.office.com/owa/?realm=hwdsb.on.ca&exsvurl=1&ll-cc=1033&modurl=0"
+                        target="_blank">
+                        <div class="navcontent">
+                            <img src="images/office365/Outlook.png">Outlook
+                        </div>
+                    </a>
+                </div>
+                <div class="column">
+                    <a href="https://outlook.office.com/owa/?realm=hwdsb.on.ca&exsvurl=1&ll-cc=1033&modurl=0"
+                        target="_blank">
+                        <div class="navcontent">
+                            <img src="images/office365/OneDrive.png">OneDrive
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <a href="https://www.office.com/launch/sway?auth=2" target="_blank">
+                        <div class="navcontent">
+                            <img src="images/office365/Word.png">Word
+                        </div>
+                    </a>
+                </div>
+                <div class="column">
+                    <a href="https://outlook.office.com/owa/?realm=hwdsb.on.ca&exsvurl=1&ll-cc=1033&modurl=0"
+                        target="_blank">
+                        <div class="navcontent">
+                            <img src="images/office365/Excel.png">Excel
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <a href="https://www.office.com/launch/sway?auth=2" target="_blank">
+                        <div class="navcontent">
+                            <img src="images/office365/PowerPoint.png">PowerPoint
+                        </div>
+                    </a>
+                </div>
+                <div class="column">
+                    <a href="https://outlook.office.com/owa/?realm=hwdsb.on.ca&exsvurl=1&ll-cc=1033&modurl=0"
+                        target="_blank">
+                        <div class="navcontent">
+                            <img src="images/office365/OneNote.png">OneNote
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <a href="https://www.office.com/launch/sway?auth=2" target="_blank">
+                        <div class="navcontent">
+                            <img src="images/office365/SharePoint.png">SharePoint
+                        </div>
+                    </a>
+                </div>
+                <div class="column">
+                    <a href="https://www.office.com/launch/sway?auth=2" target="_blank">
+                        <div class="navcontent">
+                            <img src="images/office365/Sway.png">Sway
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <a href="https://outlook.office.com/owa/?realm=hwdsb.on.ca&exsvurl=1&ll-cc=1033&modurl=1&path=/calendar/view/Month"
+                        target="_blank">
+                        <div class="navcontent">
+                            <div class="far fa-calendar-alt"></div>Calendar
+                        </div>
+                    </a>
+                </div>
+                <div class="column">
+                    <a href="https://outlook.office.com/owa/?realm=hwdsb.on.ca&exsvurl=1&ll-cc=1033&modurl=2&path=/people"
+                        target="_blank">
+                        <div class="navcontent">
+                            <div class="fas fa-user-friends" style="padding-right: 12px;"></div>People
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <a href="https://outlook.office.com/owa/?realm=hwdsb.on.ca&exsvurl=1&ll-cc=1033&modurl=3&path=/tasks"
+                        target="_blank">
+                        <div class="navcontent">
+                            <div class="fas fa-tasks"></div>Tasks
+                        </div>
+                    </a>
+                </div>
+                <div class="column">
+                    <a href="https://to-do.office.com/" target="_blank">
+                        <div class="navcontent">
+                            <div class="fas fa-check-double"></div>To-Do
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row" style="justify-content: flex-start; margin-top: 40px;">
+                <div class="column">
+                    <div class="wrap">
+                        <a href="https://www.office.com/apps?auth=2&home=1" target="_blank">All apps<div
+                                class="fas fa-arrow-right"></div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="mySidenav2" class="sidenav2">
+            <div class="row">
+                <span onclick="closeNav2()">
+                    <div class="fas fa-times"></div>
+                </span>
+            </div>
+            <div class="navmenu">
+                <div class="navtitle">
+                    Business Services
+                </div>
+                <div class="navcontent">
+                    <span>School Support</span>
+                </div>
+                <div class="navcontent">
+                    <span>Accounts Payable</span>
+                </div>
+                <div class="navcontent">
+                    <span>Budget</span>
+                </div>
+                <div class="navcontent">
+                    <span>Purchasing</span>
+                </div>
+                <div class="navcontent">
+                    <span>Payroll</span>
+                </div>
+            </div>
+            <div class="navmenu">
+                <div class="navtitle">
+                    Director's Office
+                </div>
+                <div class="navcontent">
+                    <span>Communications</span>
+                </div>
+                <div class="navcontent">
+                    <span>Community Engagement</span>
+                </div>
+                <div class="navcontent">
+                    <span>Trustees</span>
+                </div>
+                <div class="navcontent">
+                    <span>Trustee Services</span>
+                </div>
+                <div class="navcontent">
+                    <span>Research Analytics</span>
+                </div>
+            </div>
+            <div class="navmenu">
+                <div class="navtitle">
+                    Equity and Well Being
+                </div>
+                <div class="navcontent">
+                    <span>Mental Health</span>
+                </div>
+                <div class="navcontent">
+                    <span>Early Years</span>
+                </div>
+            </div>
+            <div class="navmenu">
+                <div class="navtitle">
+                    Facilities Management
+                </div>
+                <div class="navcontent">
+                    <span>Facility Operations</span>
+                </div>
+                <div class="navcontent">
+                    <span>Planning, Accommodation and Rentals</span>
+                </div>
+                <div class="navcontent">
+                    <span>Capital</span>
+                </div>
+            </div>
+            <div class="navmenu">
+                <div class="navtitle">
+                    Family of Schools
+                </div>
+                <div class="navcontent">
+                    <span onclick="openElSchools()">Elementary Schools</span>
+                </div>
+                <div class="navcontent">
+                    <span onclick="openSecSchools()">Secondary Schools</span>
+                </div>
+            </div>
+            <div class="navmenu">
+                <div class="navtitle">
+                    Human Resources
+                </div>
+                <div class="navcontent">
+                    <span>Labour Relations</span>
+                </div>
+                <div class="navcontent">
+                    <span>Staffing and Operations</span>
+                </div>
+                <div class="navcontent">
+                    <span>Staff Development</span>
+                </div>
+                <div class="navcontent">
+                    <span>Employee Support and Wellness</span>
+                </div>
+                <div class="navcontent">
+                    <span>Health and Safety</span>
+                </div>
+            </div>
+            <div class="navmenu">
+                <div class="navtitle">
+                    IIT
+                </div>
+                <div class="navcontent">
+                    <span>Infrastructure Services</span>
+                </div>
+                <div class="navcontent">
+                    <span>Support Services</span>
+                </div>
+                <div class="navcontent">
+                    <span>System Learning Commons and Training</span>
+                </div>
+                <div class="navcontent">
+                    <span>Database Team</span>
+                </div>
+            </div>
+            <div class="navmenu">
+                <div class="navtitle">
+                    Programs
+                </div>
+                <div class="navcontent">
+                    <span>Elementary School Programs</span>
+                </div>
+                <div class="navcontent">
+                    <span>Secondary School Programs</span>
+                </div>
+                <div class="navcontent">
+                    <span>Athletics</span>
+                </div>
+            </div>
+            <div class="navmenu">
+                <div class="navtitle">
+                    Specialized Services
+                </div>
+                <div class="navcontent">
+                    <span>Special Education</span>
+                </div>
+                <div class="navcontent">
+                    <span>Intensive Support Services</span>
+                </div>
+                <div class="navcontent">
+                    <span>Phsycological Services</span>
+                </div>
+                <div class="navcontent">
+                    <span>Social Work</span>
+                </div>
+            </div>
+        </div>
+        <div id="main">
+            <div class="row" style="padding-top: 20px;">
+                <img src="images/site/hwdsb_logo.png" alt="HWDSB Logo">
+            </div>
+            <div class="row">
+                <div class="column left">
+                    <span onclick="openNav()" style="float: left;">
+                        <div class="fas fa-th" data-toggle="popover" data-placement="top" data-trigger="hover"
+                            data-content="<div class='pcontent'>Office 365 Links</div>"></div>
+                    </span>
+                    <span onclick="openHelper()">
+                        <div class="fas fa-question" data-toggle="popover" data-placement="top" data-trigger="hover"
+                            data-content="<div class='pcontent'>FAQ and Help</div>"></div>
+                    </span>
+                </div>
+                <div class="column middle">
+                    <div id="mySearchBar" class="searchbar">
+                        <input type="text" placeholder="Search.." name="search">
+                        <button type="submit">
+                            <div class="row">Search<i class="fa fa-search"></i></div>
+                        </button>
+                        <!--
+                        <h1>
+                            <script>
+                                (function () {
+                                    var cx = '010246245679123934324:zo_uufgzfqs';
+                                    var gcse = document.createElement('script');
+                                    gcse.type = 'text/javascript';
+                                    gcse.async = true;
+                                    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                                    var s = document.getElementsByTagName('script')[0];
+                                    s.parentNode.insertBefore(gcse, s);
+                                })();
+                            </script>
+                        </h1>
+                        <gcse:search></gcse:search>
+                        -->
+                    </div>
+                </div>
+                <div class="column right" style="text-align: left;">
+                    <div class="row" style="display: inline-block; float: right;">
+                        <span onclick="openNav2()">
+                            <div class="fas fa-bars" data-toggle="popover" data-placement="top" data-trigger="hover"
+                                data-content="<div class='pcontent'>School Board Departments</div>"
+                                style="float: right;"></div>
+                        </span>
+                        <span onclick="">
+                            <div class="far fa-user" data-toggle="popover" data-placement="top" title="My Account"
+                                data-content="<div class='row'><div class='column account-left'>
+                                                <img src='images/portal-icons/portal-icons-teamsites.png'>
+                                            </div>
+                                            <div class='column account-right'>
+                                                <p>FirstName LastName</p>
+                                                <p>email@emailaddress.com</p>
+                                                <br>
+                                                <a href='https://portal.office.com/account/' target='_blank'>My Account</a>
+                                                <br>
+                                                <a href='#/'>Sign Out</a>
+                                            </div></div>" style="float: right;"></div>
+                        </span>
+                        <label class="switch" style="float: right;">
+                            <input type="checkbox" id="myCheckbox" onchange="toggleCheck()" unchecked>
+                            <span class="fas fa-cloud-sun" data-toggle="popover" data-placement="top"
+                                data-trigger="hover" data-content="<div class='pcontent'>Dark Mode</div>"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="menu">
+            <div class="row">
+                <div id="left-defaults" class="container">
+                    <div>
+                        <button class="collapsible">
+                            <h1>News</h1>
+                        </button>
+                        <div id="News" class="collapsecontent">
+                            <span>News</span>
+                            <span>News</span>
+                            <span>News</span>
+                            <span>News</span>
+                            <span>News</span>
+                            <div id="collapse1" class="collapse">
+                                <span>News</span>
+                                <span>News</span>
+                                <span>News</span>
+                            </div>
+                            <a href="#collapse1" id="link1" data-toggle="collapse">
+                                Show More/Hide
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="middle-defaults" class="container">
+                    <div>
+                        <button class="collapsible">
+                            <h1>Employment Opportunities</h1>
+                        </button>
+                        <div id="JobPosts" class="collapsecontent">
+                            <div id="showPosts">
+                                <span
+                                    onclick="window.open('http://www.applytoeducation.com/Applicant/AttJobPosting.aspx?JOB_POSTING_ID=8d72e536-6396-4602-a42c-6fb8f2dcdc66&PAGE=1&locale=en&maf=0')">
+                                    French Grade 1 to Grade 12 - Occasional Teachers including Long Term
+                                    Occasional
+                                </span>
+                                <span
+                                    onclick="window.open('http://www.applytoeducation.com/Applicant/AttJobPosting.aspx?JOB_POSTING_ID=026b5ef8-0784-443d-93bc-762b5517eb4c&PAGE=1&locale=en&maf=0')">
+                                    Secondary Occasional Teachers
+                                </span>
+                                <span
+                                    onclick="window.open('http://www.applytoeducation.com/Applicant/AttJobPosting.aspx?JOB_POSTING_ID=1d181ced-d612-48cd-b404-68c22b7fdbc3&PAGE=1&locale=en&maf=0')">
+                                    Mohawk as a Second Language Teacher
+                                </span>
+                            </div>
+                            <div id="collapse3" class="collapse">
+                            </div>
+                            <a href="#collapse3" id="link3" data-toggle="collapse">
+                                Show More/Hide
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="right-defaults" class="container">
+                    <div>
+                        <button class="collapsible">
+                            <div class="far fa-calendar-alt"></div>
+                            <h1 style="margin-right: 45px;">Events</h1>
+                        </button>
+                        <div id="Events" class="collapsecontent">
+                            <span>Events</span>
+                            <span>Events</span>
+                            <span>Events</span>
+                            <span>Events</span>
+                            <span>Events</span>
+                            <div id="collapse5" class="collapse">
+                                <span>Events</span>
+                                <span>Events</span>
+                                <span>Events</span>
+                            </div>
+                            <a href="#collapse5" id="link5" data-toggle="collapse">
+                                Show More/Hide
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="left-defaults" class="container">
+                    <div>
+                        <button class="collapsible">
+                            <h1>Forms</h1>
+                        </button>
+                        <div id="Forms" class="collapsecontent">
+                            <a href="attachments/Child_Info.pdf" target="_blank"><span>Child Information Form -
+                                    Registration</span></a>
+                            <a href="attachments/Kindergarten_Form.pdf" target="_blank"><span>Student
+                                    Registration &
+                                    Information Form</span></a>
+                            <a href="attachments/Mileage.xlsm"><span>Teachers & Staff Mileage Form</span></a>
+                            <!--
+                            <span
+                                onclick="window.open('https://drive.google.com/file/d/1q25mYp1g3N8g5jPQJFdUvGGa8k7a_m9v/view?usp=sharing')">Child
+                                Information Form - Registration</span>
+                            <span
+                                onclick="window.open('https://drive.google.com/open?id=1MK42kTOP8iyioX1yvP-4vkQzHNmSi2-k')">Student
+                                Registration & Information Form</span>
+                            <span
+                                onclick="window.open('https://drive.google.com/open?id=1gil5VyB7Zpewd-jtZR9U3JqSNPq9y3ze')">Teachers
+                                & Staff Mileage Form</span>
+                            -->
+                            <div id="collapse2" class="collapse">
+                            </div>
+                            <a href="#collapse2" id="link2" data-toggle="collapse">
+                                Show More/Hide
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="middle-defaults" class="container">
+                    <div>
+                        <button class="collapsible">
+                            <h1>Service Requests</h1>
+                        </button>
+                        <div id="ServiceReq" class="collapsecontent">
+                            <span>Request IIT support</span>
+                            <span>Request building repairs</span>
+                            <span>Find my T4</span>
+                            <span>Change my password</span>
+                            <span>Replace my pass card</span>
+                            <div id="collapse4" class="collapse">
+                                <span>Book a room</span>
+                                <span>Find my pay slip</span>
+                                <span>Help on school finances</span>
+                                <span>Enroll in PD</span>
+                                <span>Change my address</span>
+                                <span>Call in sick</span>
+                                <span>Book a vacation day</span>
+                                <span>Submit a print request</span>
+                                <span>Obtain Record of Employment - HR</span>
+                                <span>Obtain Confirmation of Employment - Payroll</span>
+                                <span>Report an employee incident</span>
+                                <span>Report a Safe Schools incident</span>
+                                <span>Submit teacher qualifications</span>
+                            </div>
+                            <a href="#collapse4" id="link4" data-toggle="collapse">
+                                Show More/Hide
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="right-defaults" class="container">
+                    <div>
+                        <button class="collapsible">
+                            <h1>Resources</h1>
+                        </button>
+                        <div id="Resources" class="collapsecontent">
+                            <span>Resources</span>
+                            <span>Resources</span>
+                            <span>Resources</span>
+                            <span>Resources</span>
+                            <span>Resources</span>
+                            <div id="collapse6" class="collapse">
+                                <span>Resources</span>
+                                <span>Resources</span>
+                                <span>Resources</span>
+                            </div>
+                            <a href="#collapse6" id="link6" data-toggle="collapse">
+                                Show More/Hide
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="menu2">
+            <div class="row">
+                <span onclick="window.open('http://outlook.com/OWA/hwdsb.on.ca')">
+                    <div class="column">
+                        <img src="images/portal-icons/portal-icons-email.png" alt="Office 365">
+                        <div class="title">
+                            Outlook Email
+                        </div>
+                        <div class="content">
+                            Board Email
+                        </div>
+                    </div>
+                </span>
+                <span onclick="window.open('https://hwdsb.elearningontario.ca/')">
+                    <div class="column">
+                        <img src="images/portal-icons/portal-icons-thehub.png" alt="the Hub">
+                        <div class="title">
+                            The HUB
+                        </div>
+                        <div class="content">
+                            Learning Centre for Ontario Students
+                        </div>
+                    </div>
+                </span>
+                <span onclick="window.open('https://drive.google.com/a/hwdsb.on.ca')">
+                    <div class="column">
+                        <img src="images/portal-icons/portal-icons-google-icon.png" alt="Google Apps">
+                        <div class="title">
+                            Google Suite
+                        </div>
+                        <div class="content">
+                            Access to your Google Apps (Google Docs etc.)
+                        </div>
+                    </div>
+                </span>
+                <span onclick="window.open('https://hwdsbonca.sharepoint.com/_layouts/15/sharepoint.aspx')">
+                    <div class="column">
+                        <img src="images/portal-icons/portal-icons-teamsites.png" alt="Team Sites">
+                        <div class="title">
+                            Team Sites
+                        </div>
+                        <div class="content">
+                            Connect with your team and share resources
+                        </div>
+                    </div>
+                </span>
+                <span onclick="window.open('https://hwdsb.tv/')">
+                    <div class="column">
+                        <img src="images/portal-icons/portal-icons-tv.png" alt="tv.HWDSB">
+                        <div class="title">
+                            HWDSB TV
+                        </div>
+                        <div class="content">
+                            Video content and streaming service for HWDSB
+                        </div>
+                    </div>
+                </span>
+            </div>
+            <div class="row">
+                <span onclick="window.open('https://helpme.hwdsb.on.ca/')">
+                    <div class="column">
+                        <img src="images/portal-icons/portal-icons-password.png" alt="Change/Recover your Password">
+                        <div class="title">
+                            Password
+                        </div>
+                        <div class="content">
+                            Change or recover your password
+                        </div>
+                    </div>
+                </span>
+                <span onclick="window.open('http://commons.hwdsb.on.ca/')">
+                    <div class="column">
+                        <img src="images/portal-icons/portal-icons-commons.png" alt="HWDSB Commons">
+                        <div class="title">
+                            HWDSB Commons
+                        </div>
+                        <div class="content">
+                            Blog sites that connects teachers to students
+                        </div>
+                    </div>
+                </span>
+                <span onclick="window.open('https://ippsportal.hwdsb.on.ca/')">
+                    <div class="column">
+                        <img src="images/portal-icons/portal-icons-employeewp.png" alt="Employee webportal">
+                        <div class="title">
+                            Employee Webportal
+                        </div>
+                        <div class="content">
+                            T4s, paystubs, vacation days, personal info, etc.
+                        </div>
+                    </div>
+                </span>
+                <span onclick="window.open('http://www.hwdsb.on.ca/about/policies/')">
+                    <div class="column">
+                        <img src="images/portal-icons/portal-icons-policies.png" alt="HWDSB Policies">
+                        <div class="title">
+                            Policies
+                        </div>
+                        <div class="content">
+                            Resource of all HWDSB policies and procedures
+                        </div>
+                    </div>
+                </span>
+                <span onclick="window.open('https://wordpress.com/')">
+                    <div class="column">
+                        <img src="images/portal-icons/portal-icons-wordpress.png" alt="WordPress">
+                        <div class="title">
+                            WordPress
+                        </div>
+                        <div class="content">
+                        </div>
+                    </div>
+                </span>
+            </div>
+            <div class="row">
+                <span onclick="">
+                    <div class="column" tabindex="1" data-toggle="popover" data-placement="top" data-trigger="focus"
+                        title="PowerSchool Links"
+                        data-content="<div class='pcontent'><a href='https://ps.hwdsb.on.ca/admin/pw.html/' target='_blank'>Administrators</a>, <a href='https://ps.hwdsb.on.ca/teachers/pw.html/' target='_blank'>Teachers</a>, <a href='https://ps.hwdsb.on.ca/subs/pw.html/' target='_blank'>Substitutes</a></div>">
+                        <img src="images/portal-icons/portal-icons-powerschool.png" alt="PowerSchool">
+                        <div class="title">
+                            PowerSchool
+                        </div>
+                        <div class="content">
+                            <span id="admin" onclick="window.open('https://ps.hwdsb.on.ca/admin/pw.html/')">
+                                Administrators<br>
+                            </span>
+                            <span id="teachers" onclick="window.open('https://ps.hwdsb.on.ca/teachers/pw.html/')">
+                                Teachers<br>
+                            </span>
+                            <span id="subs" onclick="window.open('https://ps.hwdsb.on.ca/subs/pw.html/')">
+                                Substitutes
+                            </span>
+                        </div>
+                    </div>
+                </span>
+                <span onclick="window.open('https://hwdsb.eschoolsolutions.com/logOnInitAction.do')">
+                    <div class="column">
+                        <img src="images/portal-icons/portal-icons-absence.png" alt="Absence">
+                        <div class="title">
+                            SmartFind Express: Absence
+                        </div>
+                        <div class="content">
+                            Report an Absence, Book a Job (Request Substitute)
+                        </div>
+                    </div>
+                </span>
+                <span onclick="window.open('https://spedassist.hwdsb.on.ca/login/')">
+                    <div class="column">
+                        <img src="images/portal-icons/portal-icons-spedassist.png" alt="SPED Assist">
+                        <div class="title">
+                            SPED Assist
+                        </div>
+                        <div class="content">
+                            Education Plan (IEP) management
+                        </div>
+                    </div>
+                </span>
+                <span onclick="window.open('https://hwdsb.ebasefm.com/')">
+                    <div class="column">
+                        <img src="images/portal-icons/portal-icons-helpdesk.png" alt="Help Desk">
+                        <div class="title">
+                            Help Desk (eBase)
+                        </div>
+                        <div class="content">
+                        </div>
+                    </div>
+                </span>
+                <span onclick="window.open('https://www.sparkrock.com/')">
+                    <div class="column">
+                        <img src="images/portal-icons/portal-icons-publicsite.png" alt="Sparkrock Site">
+                        <div class="title">
+                            Sparkrock
+                        </div>
+                        <div class="content">
+                        </div>
+                    </div>
+                </span>
+            </div>
+        </div>
+        <div id="media">
+            <div class="row">
+                <div class="row-twitter"><a href="https://twitter.com/hwdsb/" target="_blank" class="fab fa-twitter"
+                        title="Follow us on Twitter!"></a>
+                    <!--<div class="overlay"><a class="twitter-timeline" data-width="480" data-height="400" href="https://twitter.com/HWDSB?ref_src=twsrc%5Etfw">Tweets by HWDSB</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>-->
+                </div>
+                <div class="row-youtube"><a href="https://www.youtube.com/user/HWDSBtv" target="_blank"
+                        class="fab fa-youtube" title="Check out our Youtube Channel!"></a>
+                    <!--<div class="overlay"><iframe src="http://www.youtube.com/embed/?listType=user_uploads&list=HWDSBtv" width="480" height="400"></iframe></div>-->
+                </div>
+                <div class="row-HWDSB"><a href="https://www.hwdsb.on.ca" target="_blank" class="fas fa-heading"
+                        title="Visit the Board Website!"></a></div>
+                <div class="row-facebook"><a href="https://www.facebook.com/hwdsb" target="_blank"
+                        class="fab fa-facebook-f" title="Stay up-to-date on Facebook!"></a>
+                    <!--<div class="overlay"><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe></div>-->
+                </div>
+                <div class="row-instagram"><a href="https://www.instagram.com/hwdsb/" target="_blank"
+                        class="fab fa-instagram" title="Take a look at our Instagram!"></a>
+                    <!--<div class="overlay"><div class="elfsight-app-52b84169-e904-4eaa-8dcd-2334f2078aad" style="margin-left: auto; margin-right: auto;"></div></div>-->
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="row">
+                <h2><b>curiosity</b></h2>
+                <h5>•</h5>
+                <h3><b>creativity</b></h3>
+                <h5>•</h5>
+                <h4><b>possibility</b></h4>
+                <div class="row-map"><a href="https://goo.gl/maps/zmL1tRDHujL2" target="_blank">20 Education
+                        Court,
+                        Hamilton ON L9A 0B9</a>
+                    <!--<div class="overlay"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2907.441136376776!2d-79.86786148417207!3d43.221209888274146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882c85076ff3febf%3A0xca53f7159c01c1c0!2sHamilton-Wentworth+District+School+Board!5e0!3m2!1sen!2sca!4v1553625679901" width="450" height="400" frameborder="0" style="border:0" allowfullscreen></iframe></div>-->
+                </div>
+                General Enquiries: <a href="tel:1-905-527-5092">905.527.5092</a> | Fax: 905.521.2536 | <a
+                    href="mailto:help@hwdsb.on.ca">help@hwdsb.on.ca</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- <script src='javascript/dragula.js'></script> -->
+    <!-- <script src='javascript/example.min.js'></script> -->
+    <script src="javascript/functions.js"></script>
+</body>
+
+</html>
